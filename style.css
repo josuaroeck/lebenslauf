@@ -53,7 +53,7 @@ a:hover {
     /* width: 200px; */
     height: 250px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .header-personal-data {
@@ -155,7 +155,7 @@ a:hover {
     background-color: #fff;
     border-radius: 15px;
     padding: 5px 10px;
-    border: 1px solid #000;
+    border: 1px solid #ccc;
 }
 
 .cv-item-skills__no-margin {
