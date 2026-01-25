@@ -29,36 +29,75 @@ a:hover {
 }
 
 .header {
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
 }
 
+.header-banner {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* background: linear-gradient(1800deg, #DBD8D3 100%, #CECECF 0%); */
+    background: linear-gradient(#DBD8D3, #CECECF);
+}
+
 .header-badge {
-    background-color: #2EFE9A;
-    padding: 10px 20px;
-    border-radius: 0 20px 20px 0;
-    margin-left: -20px;
+    background-color: #D5D5D3;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin-left: -8px;
     width: fit-content;
     font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.header-badge-banner {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px 12px 8px 30px;
+    border-radius: 20px;
+    margin-left: -30px;
+    width: fit-content;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.5;
 }
 
 .header-subheadline {
     padding-bottom: 15px;
+    font-weight: 500;
 }
 
 .profile-image {
-    /* width: 200px; */
     height: 250px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 30px;
+}
+
+.profile-image-banner {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0 0 0 20px;
+    z-index: 10;
 }
 
 .header-personal-data {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+    max-height: 230px;
+}
+
+.header-personal-data-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
     gap: 5px;
     margin: 10px;
     max-height: 230px;
@@ -182,9 +221,29 @@ a:hover {
 
 
 .u-headline-1 {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .u-text-secondary {
     color: #888;
+}
+
+h2, h3 {
+    font-weight: 600;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-img {
+    width: 30px;
 }
