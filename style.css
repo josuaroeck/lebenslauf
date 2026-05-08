@@ -54,6 +54,7 @@ a:hover {
     font-weight: 500;
     text-transform: uppercase;
     opacity: 0.5;
+    letter-spacing: 0.01em;
 }
 
 .header-badge-banner {
@@ -73,9 +74,9 @@ a:hover {
 }
 
 .profile-image {
-    height: 250px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .profile-image-banner {
